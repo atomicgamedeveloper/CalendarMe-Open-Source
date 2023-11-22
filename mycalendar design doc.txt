@@ -1,0 +1,67 @@
+20-10-2023
+- Safety mech for failing Google backend - save locally .ics file.
+
+30-08-2023
+- "Make the description interesting and relevant" for prompts.
+- Going somewhere? CalendarMe shows least carbon footprint transportation!
+
+12-08-2023
+- E = Everytime a new event is made/check events over next week. Make function checking ids of E and update (weather, etc.) if anything has changed. Call when commanded or on startup. Maybe inform user.
+
+20-07-2023
+- Misunderstanding about GET THEN MAKE to be clarified.: "2. The most suitable command to satisfy the query would be GET THEN MAKE. The app can retrieve information about the Weezer's Pinkerton album (GET) and then create a new event related to it (MAKE), such as adding a reminder or scheduling a specific time to listen to the album while using the CalendarMe app."
+
+18-07-2023
+- [done] Conversation with GPT about what you want to do before getting to work, generating both command and planning prompt.
+
+10-07-2023
+- Edits that only contain important information.
+
+08-07-2023
+- "Prioritize events that don't overlap unless they synergize" for contextual create
+
+06-07-2023
+- Actual calendar UI
+- "..., chatGPT" improves instructability?
+
+05-07-2023
+- [done] Bug in create with context not checking return from get_events_between isn't none.
+- [done] Edit events doesn't actually update events?
+- Inconsistent time window return. Sometimes in quotes.
+- Edit events doesn't support yy and nn
+- If adding events to the past, simply add the green checkmark emoji manually.
+- Better UX from having readable time.
+
+03-07-2023
+- A clearer distinction between edit and adding or completely trustworthy prompt.
+- Try to make GPT do a hundred based on prompt.
+
+02-07-2023
+- Speed up by improving time window accuracy
+- [check] Only one updated event should still be in a list or some other alternative
+- Always end time window response with "original plan"
+
+15-05-2023
+- reset command that resets events and "calls" regret
+
+13-05-2023
+- [added, wanted?] Quotes??
+- Quotes from GoodReads books I've read :3
+- Yellow events
+- [check] Shorter scry, maybe default = 5 but can be variable
+
+11-05-2023
+- Regret function that let's you undo one question.
+
+08-05-2023
+- Input sanitization
+- [added] Scry command
+- Clear command removes whole event
+
+Older:
+- [done] remove question between new events
+- [added] allow for "+" operator in start event. It should use default time as base.
+- [added] Find a way to exit elegantly
+
+bugs:
+- [fixed] + operator persists through new events
